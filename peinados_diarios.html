@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coleta Desenfadada para el Día a Día - Peinados Diarios Prácticos</title>
+    <meta name="description" content="Coleta desenfadada perfecta para el día a día. Tutorial rápido y fácil para un peinado práctico, elegante y que dura todo el día.">
+    <meta name="keywords" content="peinados diarios, coleta práctica, peinados fáciles, cabello día a día, peinados rápidos, coleta desenfadada">
+    
+    <!-- Meta tags para redes sociales -->
+    <meta property="og:title" content="Coleta Desenfadada para el Día a Día - EstiloDiario">
+    <meta property="og:description" content="Aprende a crear una coleta desenfadada perfecta para tu rutina diaria">
+    <meta property="og:image" content="https://tudominio.com/images/coleta-diaria.jpg">
+    <meta property="og:url" content="https://tudominio.com/peinados/coleta-diaria.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Coleta Desenfadada para el Día a Día - EstiloDiario">
+    <meta name="twitter:description" content="Aprende a crear una coleta desenfadada perfecta para tu rutina diaria">
+    <meta name="twitter:image" content="https://tudominio.com/images/coleta-diaria.jpg">
+
+<!-- Favicon (logo en el navegador) -->
+    <link rel="icon" type="image/x-icon" href="logoinfo.png">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-L5F0BL2FWK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-L5F0BL2FWK');
+</script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #fefefe;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #4caf50;
+            text-decoration: none;
+        }
+        
+        .nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .hairstyle-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .hairstyle-title {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .hairstyle-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            color: #7f8c8d;
+        }
+        
+        .hairstyle-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .hairstyle-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+        
+        .materials, .instructions {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .section-title {
+            color: #4caf50;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .materials-list {
+            list-style: none;
+        }
+        
+        .materials-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .instructions-list {
+            list-style: none;
+            counter-reset: step-counter;
+        }
+        
+        .instructions-list li {
+            counter-increment: step-counter;
+            margin-bottom: 20px;
+            padding-left: 40px;
+            position: relative;
+        }
+        
+        .instructions-list li:before {
+            content: counter(step-counter);
+            background: #4caf50;
+            color: white;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        .tips {
+            background: #f1f8e9;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #8bc34a;
+            margin-bottom: 30px;
+        }
+        
+        .variations {
+            background: #e8f5e9;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #4caf50;
+            margin-bottom: 30px;
+        }
+        
+        .preparation-guide {
+            background: #f3e5f5;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #9c27b0;
+            margin-bottom: 30px;
+        }
+        
+        .accessory-tips {
+            background: #e3f2fd;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #2196f3;
+            margin-bottom: 30px;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: #4caf50;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #388e3c;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 50px;
+            border-top: 1px solid #eee;
+            color: #7f8c8d;
+        }
+        
+        /* Estilos para el anuncio */
+        .ad-container {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+            padding: 15px;
+            background-color: #f8f8f8;
+            border-radius: 8px;
+            border: 1px solid #eaeaea;
+        }
+        
+        .ad-label {
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+            margin-bottom: 5px;
+        }
+        
+        @media (max-width: 768px) {
+            .hairstyle-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .hairstyle-title {
+                font-size: 2em;
+            }
+            
+            .header-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .nav a {
+                margin: 0 10px;
+            }
+            
+            .ad-container {
+                margin: 20px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="../index.html" class="logo">EstiloDiario</a>
+            <div class="nav">
+                <a href="../index.html">Inicio</a>
+                <a href="../index.html#categorias">Estilos</a>
+                <a href="../index.html#peinados">Peinados</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="hairstyle-header">
+            <h1 class="hairstyle-title">Coleta Desenfadada para el Día a Día</h1>
+            <div class="hairstyle-meta">
+                <span>⏱️ 8 minutos</span>
+                <span>🌞 Tipo: Coleta práctica</span>
+                <span>⭐ Nivel: Fácil</span>
+            </div>
+            <img src="https://images.unsplash.com/photo-1605497788044-5a32b0d458d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Coleta desenfadada para el día a día" class="hairstyle-image">
+        </div>
+
+        <div class="tips">
+            <h3>💡 Consejo de Estilista</h3>
+            <p>Para un look natural y con volumen, no cepilles el cabello antes de hacer la coleta. Usa solo los dedos para recogerlo y deja algunos mechones sueltos alrededor del rostro para enmarcarlo.</p>
+        </div>
+
+        <!-- ANUNCIO ADSTERRA -->
+        <div class="ad-label">Publicidad</div>
+        <div class="ad-container">
+            <!-- PEGA AQUÍ EL CÓDIGO DE ADSTERRA -->
+            <script async="async" data-cfasync="false" src="//pl28102581.effectivegatecpm.com/8a61b964e562f295b83c21ee0b50d20e/invoke.js"></script>
+            <div id="container-8a61b964e562f295b83c21ee0b50d20e"></div>
+        </div>
+
+        <div class="hairstyle-content">
+            <div class="materials">
+                <h2 class="section-title">Materiales Necesarios</h2>
+                <h3 style="margin-top: 15px; color: #4caf50;">Productos para el cabello:</h3>
+                <ul class="materials-list">
+                    <li>Spray texturizador o sal marina</li>
+                    <li>Serum anti-frizz ligero</li>
+                    <li>Spray fijador ligero (opcional)</li>
+                    <li>Aceite para puntas</li>
+                    <li>Polvo voluminizador (para cabello fino)</li>
+                </ul>
+                
+                <h3 style="margin-top: 20px; color: #4caf50;">Herramientas:</h3>
+                <ul class="materials-list">
+                    <li>Goma del color del cabello</li>
+                    <li>Horquillas discretas</li>
+                    <li>Peine de cola de rata</li>
+                    <li>Pinzas para separar mechones</li>
+                    <li>Cepillo de cerdas naturales</li>
+                    <li>Espray de agua (para retoques)</li>
+                </ul>
+            </div>
+
+            <div class="instructions">
+                <h2 class="section-title">Preparación Paso a Paso</h2>
+                <ol class="instructions-list">
+                    <li>Si el cabello está recién lavado, aplica spray texturizador o sal marina para darle cuerpo y facilitar el moldeado.</li>
+                    <li>Con los dedos, despeina suavemente el cabello para darle volumen natural. Evita cepillarlo completamente.</li>
+                    <li>Inclina la cabeza hacia adelante y recoge todo el cabello en la coronilla con una mano.</li>
+                    <li>Con la otra mano, sujeta el cabello y gira la goma elástica alrededor 2-3 veces, pero no demasiado apretada.</li>
+                    <li>Antes del último giro, no pases todo el cabello. Deja la punta formando un pequeño "loop" o media cola.</li>
+                    <li>Separa suavemente el cabello alrededor de la goma para dar volumen y cubrir la goma elástica.</li>
+                    <li>Toma un mechón pequeño de la parte inferior de la coleta y envuélvelo alrededor de la goma, fijándolo con una horquilla.</li>
+                    <li>Desprende algunos mechones alrededor del rostro: en las sienes, frente y nuca para un efecto desenfadado.</li>
+                    <li>Con la punta del peine, levanta suavemente algunas secciones de la coronilla para dar más volumen y movimiento.</li>
+                    <li>Aplica un poco de serum anti-frizz en las puntas sueltas y en los mechones alrededor del rostro.</li>
+                    <li>Si deseas más fijación, aplica un poco de spray ligero a 30 cm de distancia, solo en las áreas que tienden a desordenarse.</li>
+                    <li>Para cabello fino, aplica polvo voluminizador en las raíces antes de comenzar para mayor cuerpo y duración.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="preparation-guide">
+            <h3>🌞 Secretos para un Día Completo</h3>
+            <p><strong>Cabello de segundo día:</strong> Este peinado funciona mejor con cabello que no esté recién lavado</p>
+            <p><strong>Gomas amigables:</strong> Usa gomas sin metal que no dañen el cabello ni causen quiebre</p>
+            <p><strong>Retoques rápidos:</strong> Lleva una goma extra y horquillas en tu bolso para ajustes durante el día</p>
+            <p><strong>Versatilidad:</strong> Puedes transformar esta coleta en un moño bajo para la tarde-noche</p>
+            <p><strong>Comodidad ante todo:</strong> Asegúrate de que no tire del cuero cabelludo para evitar dolores de cabeza</p>
+        </div>
+        
+        <div class="accessory-tips">
+            <h3>🎀 Accesorios para el Día a Día</h3>
+            <p><strong>Cintas de tela:</strong> Una cinta delgada alrededor de la coleta añade estilo sin esfuerzo</p>
+            <p><strong>Pasadores minimalistas:</strong> Perfectos para sujetar mechones rebeldes con estilo</p>
+            <p><strong>Bandas scrunchie:</strong> Volvieron para quedarse, son suaves con el cabello y muy cómodas</p>
+            <p><strong>Horquillas decorativas:</strong> Pequeñas horquillas con detalles sutiles para un toque especial</p>
+            <p><strong>Gomas de colores:</strong> Elige tonos que complementen tu outfit del día</p>
+        </div>
+
+        <div class="variations">
+            <h3>✨ Variaciones para Diferentes Momentos</h3>
+            <p><strong>Coleta baja:</strong> Perfecta para oficina o reuniones formales, más pulida pero igual de fácil</p>
+            <p><strong>Coleta lateral:</strong> Un toque juguetón y coqueto para looks casuales o citas informales</p>
+            <p><strong>Dos coletas:</strong> Ideal para fines de semana, deporte o días muy activos</p>
+            <p><strong>Coleta con trenza:</strong> Incorpora una trenza lateral para un look más elaborado pero práctico</p>
+            <p><strong>Media coleta:</strong> Recoge solo la parte superior para mantener el cabello fuera del rostro</p>
+            <p><strong>Coleta moño:</strong> Transforma la coleta en un moño desordenado para la tarde-noche</p>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="../index.html" class="back-button">← Volver a Peinados</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 EstiloDiario. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
