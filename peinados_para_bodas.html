@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peinado Recogido Elegante - Peinados de Novia Exclusivos</title>
+    <meta name="description" content="Peinado recogido elegante para novias. Aprende a crear este peinado sofisticado paso a paso con nuestro tutorial detallado para tu boda.">
+    <meta name="keywords" content="peinado novia, recogido elegante, boda, cabello, peinados para boda, recogido sofisticado">
+    
+    <!-- Meta tags para redes sociales -->
+    <meta property="og:title" content="Peinado Recogido Elegante - NoviasEstilo">
+    <meta property="og:description" content="Peinado recogido elegante para novias con tutorial paso a paso">
+    <meta property="og:image" content="https://tudominio.com/images/peinado-novia-elegante.jpg">
+    <meta property="og:url" content="https://tudominio.com/peinados/recogido-elegante.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Peinado Recogido Elegante - NoviasEstilo">
+    <meta name="twitter:description" content="Peinado recogido elegante para novias con tutorial paso a paso">
+    <meta name="twitter:image" content="https://tudominio.com/images/peinado-novia-elegante.jpg">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #fefefe;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #d4af37;
+            text-decoration: none;
+        }
+        
+        .nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+        }
+        
+        .hairstyle-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        
+        .hairstyle-title {
+            font-size: 2.5em;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        .hairstyle-meta {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 20px;
+            color: #7f8c8d;
+        }
+        
+        .hairstyle-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+        
+        .hairstyle-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 50px;
+        }
+        
+        .materials, .instructions {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+        
+        .section-title {
+            color: #d4af37;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #f0f0f0;
+        }
+        
+        .materials-list {
+            list-style: none;
+        }
+        
+        .materials-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f0f0f0;
+        }
+        
+        .instructions-list {
+            list-style: none;
+            counter-reset: step-counter;
+        }
+        
+        .instructions-list li {
+            counter-increment: step-counter;
+            margin-bottom: 20px;
+            padding-left: 40px;
+            position: relative;
+        }
+        
+        .instructions-list li:before {
+            content: counter(step-counter);
+            background: #d4af37;
+            color: white;
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        .tips {
+            background: #fff8f0;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #ffb347;
+            margin-bottom: 30px;
+        }
+        
+        .variations {
+            background: #f0f8ff;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #6495ed;
+            margin-bottom: 30px;
+        }
+        
+        .preparation-guide {
+            background: #f9f0ff;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #9370db;
+            margin-bottom: 30px;
+        }
+        
+        .accessory-tips {
+            background: #f0fff0;
+            padding: 25px;
+            border-radius: 10px;
+            border-left: 4px solid #3cb371;
+            margin-bottom: 30px;
+        }
+        
+        .back-button {
+            display: inline-block;
+            background: #d4af37;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background 0.3s;
+        }
+        
+        .back-button:hover {
+            background: #b8941f;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            margin-top: 50px;
+            border-top: 1px solid #eee;
+            color: #7f8c8d;
+        }
+        
+        @media (max-width: 768px) {
+            .hairstyle-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .hairstyle-title {
+                font-size: 2em;
+            }
+            
+            .header-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .nav a {
+                margin: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <a href="../index.html" class="logo">NoviasEstilo</a>
+            <div class="nav">
+                <a href="../index.html">Inicio</a>
+                <a href="../index.html#categorias">Estilos</a>
+                <a href="../index.html#peinados">Peinados</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="hairstyle-header">
+            <h1 class="hairstyle-title">Recogido Elegante para Novias</h1>
+            <div class="hairstyle-meta">
+                <span>⏱️ 45 minutos</span>
+                <span>👰 Tipo: Recogido</span>
+                <span>⭐ Nivel: Medio</span>
+            </div>
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Peinado recogido elegante para novia" class="hairstyle-image">
+        </div>
+
+        <div class="tips">
+            <h3>💡 Consejo de Estilista</h3>
+            <p>Para dar más volumen y textura al cabello, aplaca un spray de textura o polvo voluminizador en las raíces antes de comenzar el peinado. Esto facilitará el trabajo y dará un resultado más profesional.</p>
+        </div>
+
+        <div class="hairstyle-content">
+            <div class="materials">
+                <h2 class="section-title">Materiales Necesarios</h2>
+                <h3 style="margin-top: 15px; color: #d4af37;">Productos para el cabello:</h3>
+                <ul class="materials-list">
+                    <li>Spray protector térmico</li>
+                    <li>Spray de textura o polvo voluminizador</li>
+                    <li>Laca para el cabello de fijación media</li>
+                    <li>Serum o aceite para puntas</li>
+                    <li>Gel o pomada para peinar</li>
+                </ul>
+                
+                <h3 style="margin-top: 20px; color: #d4af37;">Herramientas:</h3>
+                <ul class="materials-list">
+                    <li>Plancha de pelo o tenacillas</li>
+                    <li>Secador de pelo con difusor</li>
+                    <li>Cepillo redondo mediano</li>
+                    <li>Peine de cola</li>
+                    <li>Horquillas del color del cabello</li>
+                    <li>Gomas delgadas transparentes</li>
+                    <li>Pinzas para separar mechones</li>
+                </ul>
+            </div>
+
+            <div class="instructions">
+                <h2 class="section-title">Preparación Paso a Paso</h2>
+                <ol class="instructions-list">
+                    <li>Lava el cabello el día anterior o por la mañana para que tenga textura natural. Aplica spray protector térmico en todo el cabello.</li>
+                    <li>Seca el cabello con secador y cepillo redondo, dirigiendo el aire hacia abajo para cerrar las cutículas y dar brillo.</li>
+                    <li>Aplica polvo voluminizador en las raíces para dar volumen y textura. Masajea suavemente con las yemas de los dedos.</li>
+                    <li>Con la plancha o tenacillas, crea ondas suaves en todo el cabello. No deben ser rizos definidos, sino ondulaciones naturales.</li>
+                    <li>Separa el cabello en tres secciones: una frontal derecha, una frontal izquierda y la parte posterior.</li>
+                    <li>Toma la sección posterior y crea un moño bajo suelto, fijándolo con una goma transparente en la nuca.</li>
+                    <li>Despeina suavemente el moño con los dedos para dar volumen y textura, sin deshacerlo completamente.</li>
+                    <li>Toma la sección frontal derecha y créa una trenza francesa suelta que vaya hacia el moño posterior.</li>
+                    <li>Repite el mismo proceso con la sección frontal izquierda, creando simetría con el lado derecho.</li>
+                    <li>Une las dos trenzas francesas en el moño posterior, fijándolas con horquillas discretas.</li>
+                    <li>Afloja algunos mechones alrededor del rostro para crear un efecto más suave y romántico.</li>
+                    <li>Finaliza con laca de fijación media para mantener el peinado sin apelmazar el cabello.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="preparation-guide">
+            <h3>💇‍♀️ Secretos para un Peinado Perfecto</h3>
+            <p><strong>Textura adecuada:</strong> No laves el cabello el mismo día, el cabello con un día de lavado tiene mejor textura para peinar</p>
+            <p><strong>Prueba previa:</strong> Realiza una prueba del peinado al menos 2 semanas antes de la boda</p>
+            <p><strong>Horquillas discretas:</strong> Usa horquillas del color de tu cabello para que sean invisibles</p>
+            <p><strong>Mechones estratégicos:</strong> Deja algunos mechones sueltos cerca del rostro para enmarcarlo</p>
+            <p><strong>Accesorios:</strong> Incorpora accesorios después de terminar el peinado para no interferir</p>
+        </div>
+        
+        <div class="accessory-tips">
+            <h3>👑 Incorporación de Accesorios</h3>
+            <p><strong>Diadema:</strong> Colócala después de terminar el peinado, deslizándola sobre la cabeza</p>
+            <p><strong>Flores:</strong> Inserta flores naturales o artificiales estratégicamente en el recogido</p>
+            <p><strong>Tiara:</strong> Fíjala con horquillas adicionales para mayor seguridad durante todo el día</p>
+            <p><strong>Velos:</strong> Coloca el velo después del peinado, fijándolo con horquillas en la coronilla</p>
+            <p><strong>Broches decorativos:</strong> Úsalos para cubrir las gomas o uniones en el peinado</p>
+        </div>
+
+        <div class="variations">
+            <h3>✨ Variaciones del Recogido Elegante</h3>
+            <p><strong>Recogido alto:</strong> Realiza el mismo proceso pero colocando el moño en la coronilla</p>
+            <p><strong>Con ondas marcadas:</strong> Crea ondas más definidas antes de formar el recogido</p>
+            <p><strong>Media melena:</strong> Adapta la técnica para un recogido más bajo y suelto</p>
+            <p><strong>Con tocado:</strong> Incorpora un tocado floral o de perlas para un look más glamuroso</p>
+            <p><strong>Recogido despeinado:</strong> Afloja más el peinado para un efecto bohemio y natural</p>
+            <p><strong>Con raya al medio:</strong> Cambia la raya para un look más moderno y simétrico</p>
+        </div>
+
+        <div style="text-align: center; margin-top: 30px;">
+            <a href="../index.html" class="back-button">← Volver a Peinados</a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 NoviasEstilo. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
